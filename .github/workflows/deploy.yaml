@@ -10,9 +10,7 @@ jobs:
       - name: Print variable
         run: echo "${{ secrets.TOKEN_SECRET }}"
 
-
       - name : setup
         uses : actions/setup-node@v4
         with :
-          node-version: '14.20'
-          cache: 'npm'
+          node-version: '18'
