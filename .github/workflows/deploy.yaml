@@ -12,7 +12,7 @@ jobs:
 
 
       - name : setup
-        uses : actions/setup-node@4
+        uses : actions/setup-node@v4
         with :
           node-version: '14.20'
           cache: 'npm'
